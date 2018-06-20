@@ -5,7 +5,7 @@ const options = {
   key: process.env.STRIPE_PUBLIC_KEY,
   image: 'https://cosmicjs.com/images/logo.svg',
   locale: 'auto',
-  currency: 'USD',
+  currency: 'BRL',
   billingAddress: true,
   panelLabel: 'Pay {{amount}}'
 }
